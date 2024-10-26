@@ -67,6 +67,7 @@ def decode_given_color_query(color_query: str) -> dict[int, list[int]]:
 
 if __name__ == "__main__":
     # Sample usage
+    # output: {1: [108, 101, 57], 2: [113, 98, 91], 3: [209, 239, 252], 4: [186, 151, 117], 5: [183, 185, 98], 6: [96, 50, 0]}
     print(
         decode_given_color_query(
             "4b454a524e434e4987464e464b424d45598a504260475c585d578443505660494e434b8f4c435d47594d4a41884849484b474e434c"
